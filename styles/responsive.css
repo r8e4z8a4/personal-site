@@ -1,0 +1,114 @@
+@media (max-width:1400px) {
+    .introduction__picture{
+        width: 47rem;
+        height: 47rem;
+    }
+}
+@media (max-width:1200px) {
+    .icon-site{
+        font-size: 5rem;
+    }
+}
+@media (max-width:992px) {
+    .nav-list{
+        gap: 2rem;
+    }
+    .introduction__content{
+        text-align: center;
+    }
+    .btn-wrapper{
+        justify-content: center;
+    }
+    .introduction__picture{
+        margin: 0 auto;
+    }
+    .delete{
+        display: block;
+    }
+    .map{
+        display: none;
+    }
+    .display{
+        justify-content: center;
+    }
+    .contact-content{
+        width: 80%;
+    }
+    .flex-footer{
+        justify-content: center;
+    }
+}
+@media (max-width:768px) {
+    .nav-list{
+        display: none;
+    }
+    .toggle-icon{
+        display: flex;
+    }
+    .nav-list-side{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us-top{
+        margin: 2rem auto 0;
+    }
+    .resume-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 2rem 2rem; 
+    }
+    .item-name{
+        margin: 0;
+    }
+    .contact-content{
+        width: 100%;
+    }
+    #p-1,#p-2,#p-3,#p-4,#p-5{
+        box-shadow: 0 0 1rem rgba(96,233,255,55%);
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+    }
+    .white-text{
+        background-color: #0ABEAD;
+        font-size: 1.8rem;
+    }
+    .svg-wrapper,.green-cover{
+        display: none;
+    }
+    .resume-left{
+        box-shadow: none;
+    }
+}
+@media (max-width:576px) {
+    .introduction__picture{
+        max-width: 37rem;
+        height: 37rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .about-us-top{
+        margin: -2rem auto 0;
+    }
+    .delete{
+        display: none;
+    }
+    *{
+        cursor: default !important;
+    }
+}
+@media (max-width:430px) {
+    .introduction__picture{
+        max-width: 30rem;
+        height: 30rem;
+        border-width: 1rem;
+    }
+    h1{
+        font-size: 3.8rem;
+    }
+    .copy{
+        font-size: 1.6rem;
+    }
+}
